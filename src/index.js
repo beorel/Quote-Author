@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import QuoteWrapper from './quoteWrapper';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <QuoteWrapper />
   </React.StrictMode>,
   document.getElementById('root')
 );
